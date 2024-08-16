@@ -15,6 +15,9 @@ python -m venv venv
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 # This allows you to run the activation script without changing the global execution policy permanently.
 
+# Command to get out/ to deactivate the virtual environment
+deactivate
+
 # Additional 
 # To check your windows powershell version 
 $PSVersionTable.PSVersion
